@@ -5,7 +5,7 @@ from django.forms import ModelForm, Textarea
 from .models import Thing
 
 
-class ThingsForm(ModelForm):
+class ThingForm(ModelForm):
     class Meta:
         model = Thing
         fields = ['name', 'description', 'quantity']
